@@ -1,0 +1,16 @@
+body { background: #070709; color: #f3f4f6; font-family: 'Inter', sans-serif; }
+.hero { text-align: center; padding: 5rem 1rem 3rem; background: radial-gradient(circle at center, #1a1a24 0%, #070709 70%); }
+.badge { background: rgba(99, 102, 241, 0.15); color: #818cf8; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 500; border: 1px solid rgba(99, 102, 241, 0.3); }
+.hero h1 { font-size: 3rem; margin: 1rem 0 0.5rem; font-weight: 700; letter-spacing: -1px; }
+.hero p { color: #9ca3af; font-size: 1.1rem; }
+
+.menu-container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+.menu-container h2 { font-size: 1.8rem; margin-bottom: 1.5rem; font-weight: 600; }
+
+.glass-card { background: rgba(18, 18, 24, 0.7); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 2rem; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+.item-info h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+.item-info p { color: #9ca3af; font-size: 0.95rem; margin-bottom: 1rem; max-width: 400px; }
+.price { font-size: 1.2rem; font-weight: 700; color: #34d399; display: block; }
+
+.btn-primary { background: #f3f4f6; color: #070709; border: none; padding: 0.75rem 1.5rem; border-radius: 10px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
+.btn-primary:hover { background: #ffffff; transform: translateY(-2px); box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2); }   
